@@ -1,12 +1,3 @@
-console.log('This is CV Screnner')
-
-function randomNumber() {
-    randomNum = Math.floor(Math.random() * 100);
-    return randomNum;
-}
-
-
-//Creating Candidate data
 
 const data = [
     {
@@ -19,72 +10,50 @@ const data = [
         image: `https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQvpxDiea3Jp_AIWYAL_tudsQSm9CsnPT_lw&usqp=CAU`
     },
     {
-        name: 'Akash Jat',
-        age: 21,
+        name: 'Abhishek',
+        age: 26,
         gender: 'Male',
-        city: 'Shivgarh',
+        city: 'Timarni',
         language: 'Go',
         framework: 'Go',
-        image: `https://randomuser.me/api/portraits/men/${randomNumber()}.jpg`
+        image: `https://randomuser.me/api/portraits/men/1.jpg`
     },
     {
-        name: 'Juned Shah',
-        age: 20,
+        name: 'Devendra',
+        age: 25,
         gender: 'Male',
-        city: 'Ghatabillod',
+        city: 'Timarni',
         language: 'C++',
         framework: '.NET',
-        image: `https://randomuser.me/api/portraits/men/${randomNumber()}.jpg`
+        image: `https://randomuser.me/api/portraits/men/2.jpg`
     },
     {
-        name: 'Akash Swami',
+        name: 'Mayank',
         age: 21,
         gender: 'Male',
-        city: 'Indore',
+        city: 'Timarni',
         language: 'php',
         framework: 'Laravel',
-        image: `https://randomuser.me/api/portraits/men/${randomNumber()}.jpg`
+        image: `https://randomuser.me/api/portraits/men/3.jpg`
     },
     {
-        name: 'Harsh Gupta',
+        name: 'Amit',
         age: 20,
         gender: 'Male',
-        city: 'Ghatabillod',
+        city: 'Timarni',
         language: 'mySQL DB',
         framework: 'PostgreSql',
-        image: `https://randomuser.me/api/portraits/men/${randomNumber()}.jpg`
+        image: `https://randomuser.me/api/portraits/men/4.jpg`
     },
-    //Start insert data here
 
-    //Insert Your data here
-    // {
-    //     name: 'Your Name',
-    //     age: Your Age (int int),
-    //     gender: 'Male',  //Choose only Male, Female
-    //     city: 'Your City',
-    //     language: 'your Language',
-    //     framework: 'your framework',
-    //image: `https://randomuser.me/api/portraits/men/${randomNumber()}.jpg` just chance men to women if your gender is Female
-    // },
-
-    //End of insertion data
     {
-        name: 'Nikunj Gorani',
+        name: 'Ankurita',
         age: 22,
         gender: 'Female',
-        city: 'Kannod',
+        city: 'Timarni',
         language: 'Java',
         framework: null,
-        image: `https://randomuser.me/api/portraits/women/${randomNumber()}.jpg`
-    },
-    {
-        name: 'Prince Gupta',
-        age: 21,
-        gender: 'Female',
-        city: 'Khilchipur',
-        language: 'Java',
-        framework: 'Spring',
-        image: `https://randomuser.me/api/portraits/women/${randomNumber()}.jpg`
+        image: `https://randomuser.me/api/portraits/women/7.jpg`
     },
 ]
 
