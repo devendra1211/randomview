@@ -1,4 +1,9 @@
 
+function randomNumber() {
+    randomNum = Math.floor(Math.random() * 100);
+    return randomNum;
+}
+
 const data = [
     {
         name: 'Pikachu',
@@ -7,7 +12,7 @@ const data = [
         city: 'Indore',
         language: 'Python, JS',
         framework: 'django, React',
-        image: `https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQvpxDiea3Jp_AIWYAL_tudsQSm9CsnPT_lw&usqp=CAU`
+        image: `https://randomuser.me/api/portraits/men/${randomNumber()}.jpg`
     },
     {
         name: 'Abhishek',
@@ -16,7 +21,7 @@ const data = [
         city: 'Timarni',
         language: 'Go',
         framework: 'Go',
-        image: `https://randomuser.me/api/portraits/men/1.jpg`
+        image: `https://randomuser.me/api/portraits/men/${randomNumber()}.jpg`
     },
     {
         name: 'Devendra',
@@ -25,7 +30,7 @@ const data = [
         city: 'Timarni',
         language: 'C++',
         framework: '.NET',
-        image: `https://randomuser.me/api/portraits/men/2.jpg`
+        image: `https://randomuser.me/api/portraits/men/${randomNumber()}.jpg`
     },
     {
         name: 'Mayank',
@@ -34,7 +39,7 @@ const data = [
         city: 'Timarni',
         language: 'php',
         framework: 'Laravel',
-        image: `https://randomuser.me/api/portraits/men/3.jpg`
+        image: `https://randomuser.me/api/portraits/men/${randomNumber()}.jpg`
     },
     {
         name: 'Amit',
@@ -43,7 +48,7 @@ const data = [
         city: 'Timarni',
         language: 'mySQL DB',
         framework: 'PostgreSql',
-        image: `https://randomuser.me/api/portraits/men/4.jpg`
+        image: `https://randomuser.me/api/portraits/men/${randomNumber()}.jpg`
     },
 
     {
@@ -53,7 +58,7 @@ const data = [
         city: 'Timarni',
         language: 'Java',
         framework: null,
-        image: `https://randomuser.me/api/portraits/women/7.jpg`
+        image: `https://randomuser.me/api/portraits/women/${randomNumber()}.jpg`
     },
 ]
 
